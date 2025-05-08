@@ -1,5 +1,6 @@
 📊 LinkedIn Data Jobs Analysis
 This project analyzes a dataset of LinkedIn job postings related to data roles such as Data Analyst, Data Scientist, and Data Engineer. It combines SQL querying and data visualization using Python to explore job market trends.
+
 📁 Dataset
 The dataset (clean_jobs.csv) contains scraped LinkedIn job postings with the following key columns:
 
@@ -12,7 +13,6 @@ location – Job location (city/country)
 description – Full job description text
 
 work_type and employment_type – (Note: Empty in this version)
-🛠 Features
 This script performs:
 
 ✅ SQL Analysis (via SQLite)
@@ -24,6 +24,7 @@ Jobs mentioning "Python" in the description
 
 📊 Visualizations (via matplotlib and seaborn)
 Bar charts of the top job titles and top job locations
+
 📌 Output
 Bar plots showing the most common job titles and locations
 
@@ -37,6 +38,4 @@ NLP-based skill extraction (e.g., top mentioned tools: SQL, Python, Excel)
 Resume or cover letter generator based on job descriptions
 
 Trend analysis (by posting date or job type)
-
-
 
